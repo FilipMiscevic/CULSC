@@ -1,0 +1,352 @@
+.hide {
+	display:none!important;
+}
+.clear {
+	clear:both!important;
+}
+h1, h2, h3, h4, h5 {
+	font-weight:normal;
+	font-family: "Cambria", "Georgia", "Times", "Times New Roman", serif;
+}
+body {
+	background:url("../images/bg.jpg") repeat-x top center;
+	font-family: "Geneva", "Verdana", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	color:#14334f;
+}
+a, a:visited {
+	color:#14334f;
+}
+strong {
+	font-weight:bold;
+	color:#638cb1;
+}
+ul {
+	list-style:none;
+}
+body, body * {
+	padding:0;
+	margin:0;
+}
+
+#top-nav {
+	position:absolute;
+	top:0;
+	width:1000px;
+	left:50%;
+	margin-left:-500px;
+	height:100px;
+}
+#top-nav ul {
+	display:inline-block;
+	float:right;
+	height:100px;
+	text-align:right;
+}
+#top-nav li {
+	display:inline-block;
+	margin-left:20px;
+	height:100px;
+}
+#top-nav li > a {
+	display:block;
+	padding-top:45px;
+	height:27px;
+	font-size:15px;
+	color:#638CB1;
+	text-decoration:none;
+	font-weight:normal;
+}
+#top-nav > h1 {
+	display:inline-block;
+	width:224px;
+	height:100px;
+	float:left;
+}
+#top-nav > h1 > a {
+	display:block;
+	width:224px;
+	height:100px;
+	background:url("../images/logo.jpg") no-repeat;
+}
+#top-nav a:hover {
+	border-bottom:1px solid #638CB1;
+}
+#top-nav a.active  {
+	color:#264887;
+}
+
+
+
+.mid-banner {
+	position:absolute;
+	top:100px;
+	width:100%;
+	height:350px;
+	text-align:center;
+	background-position:50% 50%;
+}
+.mid-banner > .details {
+	height:350px;
+	width:1000px;
+	margin:-350px auto 0 auto;
+	color:#fff;
+}
+.mid-banner > .details > h2{
+	padding-top:50px;
+	font-weight:normal;
+	word-spacing:20px;
+	font-size:70pt;
+	text-transform:uppercase;
+}
+.mid-banner > .details > h3{
+	display:block;
+	padding-top:10px;
+}
+
+
+
+#main-container {
+	position:absolute;
+	top:450px;
+	width:100%;
+}
+#main-content {
+	width:960px;
+	background:#fff;
+	overflow:auto;
+	padding:20px 20px 0 20px;
+	margin:0 auto;
+}
+#main-content > div, #main-content > iframe {
+	background:#fff;
+	display:inline-block;
+	margin-bottom:20px;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
+#main-content > div > .top {
+	display:block;
+	position:relative;
+	top:0;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#main-content > div > .top  > * {
+	display:block;
+	font-size:20px;
+	font-weight:normal;
+	text-align:center;
+	text-transform:uppercase;
+	color:#638cb1;
+	padding:20px 0 20px 0;
+}
+#main-content > .left {
+	float:left;
+	width:660px;
+	background-image:url("../images/body_left_main.png");
+}
+#main-content > .left > .details {
+	padding:0 20px 20px 20px;
+}
+#main-content > .left > .details > table {
+	font-size:7pt;
+	margin-bottom:20px;
+}
+#main-content > .left > .details > img {
+	margin:0 auto;
+}
+#main-content > .left > .details > table td {
+	padding:5px;
+}
+#main-content > .left > .details > ul{
+	display:block;
+	padding:0 0 0 50px;
+}
+#main-content > .left > .details > ul > li{
+	display:block;
+	height:20px;
+}
+#main-content > .left > .details > ul > li.double{
+	height:40px;
+}
+#main-content > .left > .details > p {
+	font-size:80%;
+	margin-top:0;
+	margin-bottom:20px;
+	border-top:1px dotted #e0e0e0;
+	padding-top:10px;
+}
+#main-content > .left > .details ol {
+	display:block;
+	padding:10px 40px;
+	margin-top:-20px;
+}
+#main-content > .left > .details li {
+	font-size:80%;
+	padding:5px 0;
+}
+#main-content > .right {
+	float:right;
+	width:280px;
+	background-image:url("../images/body_right_main.png");
+}
+#main-content > .left > .top  {
+	background-image:url("../images/body_left_top.png");
+}
+#main-content > .right > .top  {
+	background-image:url("../images/body_right_top.png");
+}
+
+
+
+#main-content > #updates  > ul {
+	list-style-type:none;
+	padding:0 8px 20px 8px;
+}
+#main-content > #updates  > ul > li {
+	padding:0 10px 10px 10px;
+}
+#main-content > #updates  > ul > li > div{
+	padding-top:10px;
+	border-top:1px dotted #638cb1;
+}
+#main-content > #updates  > ul > li:hover {
+	background:#eaeaea;
+}
+#main-content > #updates  > ul > li > div > span {
+	display:block;
+	font-size:80%;
+}
+#main-content > #updates  > ul > li > div > .date {
+	font-weight:bold;
+	color:#638cb1;
+}
+
+
+
+
+
+
+
+
+#main-content > .left  > .schedule > p > span, #main-content > .left  > .accom > p > span {
+	display:inline-block;
+	width:200px;
+	font-weight:bold;
+	color:#638cb1;
+}
+
+
+
+#main-content > .photos > .details > a {
+	display:inline-block;
+	padding:6px;
+	border:1px solid #333;
+	background:#fff;
+	margin:7px;
+}
+#main-content > .photos > .details > a:hover {
+	border:1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+#main-content > .registration > .details {
+	padding:0 18px 10px 18px;
+}
+#main-content > .registration > .details > p {
+	padding:10px 0;
+	border-top:1px dotted #638cb1;
+}
+#main-content > .step1, #main-content > .step2 {
+	float:left;
+}
+#main-content > .step1 {
+	width:643px;
+	background:#f7f7f7;
+	border:1px solid #0b61a4;
+	margin-left:7px;
+	margin-top:7px;
+	background-image:none;
+	font-size:100%;
+	font-size:0.8em;
+}
+#main-content > .step1 > h3 {
+	font-family: Arial, sans-serif;
+	display:block;
+	background:#0B61A4;
+	font-size:1.3em;
+	color:#fff;
+	padding:15px;
+	font-weight:bold;
+}
+#main-content > .step1 > .details {
+	padding:30px 15px 40px 15px;
+	color:#000;
+}
+#main-content > .step1 > .details > p {
+	margin-top:0;
+	margin-bottom:20px;
+	border-top:1px dotted #638cb1;
+	padding-top:10px;
+}
+#main-content > .step1 > .details .button {
+	margin-bottom:-30px;
+}
+#main-content > .step2 {
+	height:720px;
+	width:653px;
+	margin-left:7px;
+}
+#main-content > .feedback {
+	height:500px;
+	width:653px;
+	margin-left:7px;
+}
+
+
+
+
+#footer {
+	display:block;
+	clear:both;
+	height:300px;
+	background:url("../images/footer.jpg") 50% 10%;
+}
+#footer > ul, #footer > #disclaimer, #footer > #credit {
+	display:block;
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#footer > ul ul {
+	display:inline-block;
+	padding:20px 5px;
+	float:left;
+	width:182px;
+}
+
+#footer > ul ul a {
+	font-size:12px;
+	font-family: "Geneva", "Verdana", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	text-decoration:none;
+}
+#footer > ul ul h5 {
+	font-weight:bold;
+}
+#footer > ul ul a:hover {
+	text-decoration:underline;
+}
+#footer > #credit, #footer > #disclaimer {
+	border-top:1px dashed #638cb1;
+	padding:20px 0;
+	width:950px;
+	font-size:12px;
+	
+}
