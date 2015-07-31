@@ -17,11 +17,7 @@ var captions = [
 ];
 
 var updates = { 
-"February 18, 2015" : "Our old website, culsc.sa.utoronto.ca, is working once again. You can register at culsc.sa.utoronto.ca or at tinyurl.com/culsc2015, both websites will be kept online and up to date.",
-"February 17, 2015" : "Registration for CULSC 2015 is now open! CULSC 2015 will be held from March 6-8th, 2015. Deadling for registration is March 6th at 5:00pm.",
-"February 16, 2015" : "We are currently experiencing issues with our old website, culsc.sa.utoronto.ca. In the meantime, we have moved it to tinyurl.com/culsc2015. We apologize for any inconvenience this may have caused.",
-
-
+	"March 9, 2015" : "CULSC 2015 is now over and the winning teams have been announced! Check this website early in January for information about CULSC 2016."
 };
 
 function start() {
